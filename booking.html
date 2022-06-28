@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на курсы</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="kurs">
+
+            Запись на курсы
+        </h1>
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="Имя">
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname" placeholder="Фамилия">
+            <label for="age"></label>
+            <input type="text" id="age" name="age" placeholder="Возраст ребёнка (лет)">
+            <label for="prog"></label>
+            <input type="text" id="prog" name="prog" placeholder="Название выбранной программы">
+            <label for="tel"></label>
+            <input type="text" id="tel" name="tel" placeholder="Контактный номер телефона">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email">
+            <p>Выберите удобную для вас дату начала занятий:
+                <input type="date" name="calendar" value="2022-06-20" max="2023-08-20" min="2022-06-20">
+            </p>
+            <fieldset>
+                <legend>Дополнительные курсы</legend>
+                <ul>
+                    <li>
+                        <label for="title_1">
+                            <input type="checkbox" id="title_1" name="title" value="1">
+                            Геймдизайн
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_2">
+                            <input type="checkbox" id="title_2" name="title" value="2">
+                            Игра на фортепиано
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_3">
+                            <input type="checkbox" id="title_3" name="title" value="3">
+                            Инженерный клуб
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_4">
+                            <input type="checkbox" id="title_4" name="title" value="4">
+                            Рисование
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_5">
+                            <input type="checkbox" id="title_5" name="title" value="5">
+                            Индивидуальный вокал
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_6">
+                            <input type="checkbox" id="title_6" name="title" value="6">
+                            Столярное искусство
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_7">
+                            <input type="checkbox" id="title_7" name="title" value="7">
+                            Архитектурное путешествие
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p><b>Комментарии:</b></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+            <h1 class="money">
+                <span class="sum">Итоговая стоимость заказа:</span> <br>
+                <span class="sum19">19.990₽</span> <br>
+                <s>25.000₽</s>
+            </h1>
+            <input type="submit" value="Оставить заявку">
+            <div class="ind">
+                <a href="index.html">Вернуться на главную</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

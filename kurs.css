@@ -1,0 +1,104 @@
+body {
+    background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+@font-face {
+    font-family: ofont;
+    src: url(fonts/ofont.ru_BerolinaCapC.ttf);
+}
+
+@font-face {
+    font-family: comf;
+    src: url(fonts/Comfortaa-Regular.ttf);
+}
+
+h1 {
+    font-family: comf;
+}
+
+.course {
+    background-image: url(img/logo.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 150px;
+    margin-left: 100px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 24px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.course1 {
+    font-family: ofont;
+}
+
+.content {
+    width: 900px;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+
+.product-description .money {
+    font-size: 12px;
+    color: #00be06;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.product-description h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: #43484D;
+    letter-spacing: -2px;
+}
+
+.product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+}
+
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 240px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.floating-button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
